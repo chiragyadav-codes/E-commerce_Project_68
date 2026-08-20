@@ -35,3 +35,11 @@ git branch [branch_name]
 
 git switch -c feature/product-api
 
+create new file product.js
+git status
+git add .
+git commit -m "Add product data"
+git push -u origin feature/product-api
+
+
+
