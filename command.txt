@@ -35,6 +35,7 @@ git branch [branch_name]
 
 git switch -c feature/product-api
 
+<<<<<<< HEAD
 create new file product.js
 git status
 git add .
@@ -60,3 +61,5 @@ create .gitignore file
 also make .env, node_module folder-> .gitkeep
 
 And check text.env detects or not
+=======
+>>>>>>> 09336062b0f8b1d59bb38429c378e25b89749f3b
