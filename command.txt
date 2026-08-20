@@ -1,0 +1,37 @@
+PART-A
+
+git config --global user.name "Chirag Yadav"
+git config --global user.email "chirag.n.yadav17.com"
+
+mkdir E-commerce
+cd E-commerce
+
+git init
+
+Create the files
+->index.js
+->Readme.mk
+->.gitignore
+
+git status
+
+git add .
+
+git commit -m "Initial project files"
+
+git log
+git log --oneline
+
+git remote add origin https://github.com/chiragyadav-codes/E-commerce_Project_68.git
+git push -u origin main
+
+git remote -v
+
+PART-B
+
+git branch
+
+git branch [branch_name]
+
+git switch -c feature/product-api
+
